@@ -1,18 +1,18 @@
 
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 
-# << Project Title >>
-## CS110 B1 Final Project  << Semester, Year >>
+# VirtuPets
+## CS110 B1 Final Project  Semester 1, 2024
 
 ## Team Members
 
-<< List team member names >>
+Jordan Lee
 
 ***
 
 ## Project Description
 
-<< Give an overview of your project >>
+This project is a pet simulator game where players care for a virtual pet by managing its needs like hunger, energy, and happiness. Players can interact with the pet through activities like feeding, playing, and letting it rest.
 
 ***    
 
@@ -30,11 +30,11 @@
 
 ### Features
 
-1. << Feature 1 >>
-2. << Feature 2 >>
-3. << Feature 3 >>
-4. << Feature 4 >>
-5. << Feature 5 >>
+1. Start Menu
+2. Movable Pet Character
+3. Interaction Buttons (Feed, Play, Sleep)
+4. Stat Display (hunger, happiness, energy)
+5. Game Over screen (if the pet’s health declines too much)
 
 ### Classes
 
