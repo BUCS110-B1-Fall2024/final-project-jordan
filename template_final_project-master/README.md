@@ -37,8 +37,30 @@ This project is a pet simulator game where players care for a virtual pet by man
 5. Game Over screen (if the pet’s health declines too much)
 
 ### Classes
+#### **Pet Class**
+Attributes:
+- `name`: str - the pet's name
+- `x`: int - x-coordinate position
+- `y`: int - y-coordinate position
+- `img_file`: str - image representing the pet
+- `hunger`: int - hunger level of the pet
+- `happiness`: int - happiness level of the pet
 
-- << You should have a list of each of your classes with a description >>
+Methods:
+- `__init__(name, x, y, img_file)`
+- `move(dx, dy)`
+- `feed()`
+- `play()`
+
+#### **Food Class**
+Attributes:
+- `x`: int - x-coordinate position
+- `y`: int - y-coordinate position
+- `img_file`: str - image representing the food
+
+Methods:
+- `__init__(x, y, img_file)`
+- `is_eaten(pet_x, pet_y)`
 
 ## ATP
 
