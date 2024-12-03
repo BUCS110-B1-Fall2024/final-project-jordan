@@ -64,8 +64,66 @@ Methods:
 
 ## ATP
 
-| Step                 |Procedure             |Expected Results                   |
-|----------------------|:--------------------:|----------------------------------:|
-|  1                   | Run Counter Program  |GUI window appears with count = 0  |
-|  2                   | click count button   | display changes to count = 1      |
-etc...
+### **Test Case 1: Pet Status Updates**  
+Test Description: Verify that the pet's status (e.g., hunger, happiness, energy) updates correctly based on user interactions.  
+
+Test Steps: 
+1. Start the game and select a pet.  
+2. Feed the pet.  
+3. Confirm that the hunger level decreases.  
+4. Play with the pet and check happiness level.  
+
+Expected Outcome:
+The pet's status updates correctly after each interaction.
+
+### **Test Case 2: Pet Interaction (Activity Options)**  
+Test Description: Ensure that each pet activity (e.g., feeding, playing, resting) functions as expected.
+
+Test Steps:
+1. Start the game and select the Feed option.
+2. Confirm that the pet eats and hunger decreases.
+3. Select the Play option.
+4. Confirm that the pet plays and happiness increases.
+5. Select the Rest option.
+6. Confirm that the pet rests and energy increases.
+
+Expected Outcome:
+Each activity should trigger the corresponding pet behavior and update the appropriate status attributes.
+
+
+### **Test Case 3: Pet Evolution or Growth**
+Test Description: Verify that the pet evolves or grows after reaching specific milestones.
+
+Test Steps:
+1. Start the game and interact with the pet until it reaches a certain level or status threshold.
+2. Check if the pet evolves or grows to the next stage.
+3. Verify that the new appearance or abilities are displayed.
+
+Expected Outcome:
+The pet should evolve or grow based on specific milestones, and its appearance or behavior should change accordingly.
+
+
+### **Test Case 4: Menu Navigation**
+Test Description: Test navigation through the game's main and sub-menus.
+
+Test Steps:
+1. Start the game and access the main menu.
+2. Navigate through options (e.g., Start Game, Settings, Exit).
+3. Verify that each option is selectable and leads to the correct screen or action.
+
+Expected Outcome:
+All menu options should be accessible, functional, and lead to the expected outcome without errors.
+
+
+### **Test Case 5: Saving and Loading Progress**
+Test Description: Ensure that the pet's progress is saved and can be loaded correctly.
+
+Test Steps:
+1. Start the game and interact with the pet (e.g., increase happiness or decrease hunger).
+2. Save the game progress.
+3. Exit the game and restart it.
+4. Load the saved game.
+5. Verify that the pet's status reflects the previously saved state.
+
+Expected Outcome:
+The game should save and load progress correctly, maintaining all pet status data.
